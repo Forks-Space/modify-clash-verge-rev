@@ -15,7 +15,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node-version: [16.x]
+        node-version: [18.x]  # 更新 Node.js 版本
 
     steps:
     - name: Checkout repository
